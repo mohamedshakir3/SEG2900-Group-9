@@ -7,8 +7,8 @@ easier for them to navigate the place. It is targetted at travelors who don't kn
 EzTravel, Travel with ease, Travel appeased.
 
 Group Members:
-Mohamed Shakir
-Oussama Touahri
-Joel Stéphane Ngando-Kouo
-Rand Al-Nuaimi
+Mohamed Shakir,
+Oussama Touahri,
+Joel Stéphane Ngando-Kouo,
+Rand Al-Nuaimi,
 Ashbelle Hounhouedo
