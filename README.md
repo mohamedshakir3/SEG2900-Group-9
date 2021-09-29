@@ -8,7 +8,7 @@ EzTravel, Travel with ease, Travel appeased.
 
 Group Members:
 Mohamed Shakir
-Oussama TOuahri
+Oussama Touahri
 Joel Stéphane Ngando-Kouo
 Rand Al-Nuaimi
 Ashbelle Hounhouedo
