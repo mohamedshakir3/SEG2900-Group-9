@@ -16,7 +16,7 @@
       .bd-placeholder-img-lg {
         font-size: 3.5rem;
       }
-
+    }
       .bd-placeholder-img {
         font-size: 1.125rem;
         text-anchor: middle;
@@ -37,6 +37,7 @@
         color: #4d4d4d;
         transition: all .2s;
       }
+      /**
       &:after{
         content: attr(data-count);
         font-size: 14px;
@@ -46,8 +47,8 @@
         text-align: center;
         top: 100%;
         width: 100%;
-      }
-
+      }**/
+      
       .social-media p a:hover {
         box-shadow: 0 0 15px rgba(0,0,0, 0.5) inset;
       }
@@ -58,9 +59,41 @@
         font-weight: 500;
         color: rgba(0, 0, 0, 0.3);
       }
+      .navbar-nav .nav-item {
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .navbar-nav {
+        width: inherit;
+      }
+      .carousel .carousel-item {
+        height: 550px;
+      }
+      /*object-fit:cover; To preserve the aspect ration for different window sizes*/
+      .carousel-item img {
+          position: absolute;
+          object-fit:cover;
+          top: 0;
+          left: 0;
+          min-height: 500px;
+      }
+      /* Smaller than standard 960 (devices and browsers) */
+      @media only screen and (max-width: 959px) {}
+
+      /* Tablet Portrait size to standard 960 (devices and browsers) */
+      @media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+      /* All Mobile Sizes (devices and browser) */
+      @media only screen and (max-width: 767px) {}
+
+      /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+      @media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+      /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+      @media only screen and (max-width: 479px) {}
 
       /**Navbar css end **/
-    }
+    
   </style>
 </head>
 
@@ -72,7 +105,7 @@
           <div class="row">
             <div class="col-md-6 text-center">
               <a href="./index.html">
-                <img alt="Logo" src="./Logo_small.png" width="100" height="92">
+                <img alt="Logo" src="./Logo_small2.png"style="width: 50px;height: auto;">
               </a>
               <br>
               <p style="color: rgb(55, 141, 15); font-size: 9px; font-family: monospace;"> TRAVEL WITH EASE, TRAVEL
@@ -108,25 +141,16 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
+        <div class="collapse navbar-collapse justify-content-md-center col-4" id="navbars">
           <ul class="navbar-nav">
-            </li>
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="./get_started.html">Get Started</a>
             </li>
-            <!-- <li class="nav-item dropdown"> -->
-            <!-- <a class="nav-link dropdown-toggle" href="#" id="dropdown08" data-bs-toggle="dropdown" aria-expanded="false">Project option</a> -->
-            <!-- <li class="nav-item"> -->
-            <a class="nav-link active" aria-current="page" href="./About_us.html">About Us</a>
-            </li>
-            <!-- <ul class="dropdown-menu" aria-labelledby="dropdown08"> -->
-            <!-- <li><a class="dropdown-item" href="#">Action</a></li> -->
-            <!-- <li><a class="dropdown-item" href="#">Another action</a></li> -->
-            <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
-            <!-- </ul> -->
+            <li class="nav-item"> 
+              <a class="nav-link active" aria-current="page" href="./About_us.html">About Us</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="./testimonials.html">Testimonial</a>
@@ -136,6 +160,35 @@
       </div>
     </nav>
   </header>
+  <!-- carroussel! -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://www.webintravel.com/wp-content/uploads/2021/05/travellers-YakobchukOlena-GettyImages.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://images.unsplash.com/photo-1581876804153-74295c0f59e7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://images.unsplash.com/photo-1517400508447-f8dd518b86db?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- end carroussel! -->
   <!-- Optional JavaScript; choose one of the two! -->
 
   <!-- Option 1: Bootstrap Bundle with Popper -->
