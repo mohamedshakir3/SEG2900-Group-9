@@ -10,94 +10,10 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="styles.css">
-  <style>
-    /**- carrousel option **/
-    @media (min-width: 768px) {
-      .bd-placeholder-img-lg {
-        font-size: 3.5rem;
-      }
-    }
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      /**- Navbar css **/
-      .social-media p a {
-        border: 1px solid #e6e6e6;
-        width: 40px;
-        height: 40px;
-        text-decoration: none;
-        background-color: transparent;
-        border-radius: 50%;
-        margin-right: 4px;
-        color: #4d4d4d;
-        transition: all .2s;
-      }
-      /**
-      &:after{
-        content: attr(data-count);
-        font-size: 14px;
-        left: 0;
-        line-height: 20px;
-        position: absolute;
-        text-align: center;
-        top: 100%;
-        width: 100%;
-      }**/
-      
-      .social-media p a:hover {
-        box-shadow: 0 0 15px rgba(0,0,0, 0.5) inset;
-      }
-
-      .navbar-brand span {
-        display: block;
-        font-size: 12px;
-        font-weight: 500;
-        color: rgba(0, 0, 0, 0.3);
-      }
-      .navbar-nav .nav-item {
-        margin-left: auto;
-        margin-right: auto;
-      }
-      .navbar-nav {
-        width: inherit;
-      }
-      .carousel .carousel-item {
-        height: 550px;
-      }
-      /*object-fit:cover; To preserve the aspect ration for different window sizes*/
-      .carousel-item img {
-          position: absolute;
-          object-fit:cover;
-          top: 0;
-          left: 0;
-          min-height: 500px;
-      }
-      /* Smaller than standard 960 (devices and browsers) */
-      @media only screen and (max-width: 959px) {}
-
-      /* Tablet Portrait size to standard 960 (devices and browsers) */
-      @media only screen and (min-width: 768px) and (max-width: 959px) {}
-
-      /* All Mobile Sizes (devices and browser) */
-      @media only screen and (max-width: 767px) {}
-
-      /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-      @media only screen and (min-width: 480px) and (max-width: 767px) {}
-
-      /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-      @media only screen and (max-width: 479px) {}
-
-      /**Navbar css end **/
-    
-  </style>
 </head>
 
 <body>
+  <!-- Navbar -->
   <header>
     <div class="container-fluid px-md-5">
       <div class="row justify-content-between">
@@ -134,26 +50,24 @@
         </div>
       </div>
     </div>
-    <nav id="navbar_top" class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Tenth navbar example">
+    <nav id="navbar_top" class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Tenth navbar">
       <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08"
-          aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbars"aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-
         <div class="collapse navbar-collapse justify-content-md-center col-4" id="navbars">
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./get_started.html">Get Started</a>
+              <a class="nav-link active" aria-current="page" href="./Product_Features.html">Product Features</a>
             </li>
             <li class="nav-item"> 
-              <a class="nav-link active" aria-current="page" href="./About_us.html">About Us</a>
+              <a class="nav-link active" aria-current="page" href="./Pricing.html">Pricing</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./testimonials.html">Testimonial</a>
+              <a class="nav-link active" aria-current="page" href="./Team.html">Team Page</a>
             </li>
           </ul>
         </div>
