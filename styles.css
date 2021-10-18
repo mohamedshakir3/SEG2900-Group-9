@@ -126,7 +126,7 @@ body{
 .our-services {
   margin-top: 75px;
   padding-bottom: 30px;
-  padding: 0 60px;
+  padding:  60px;
   min-height: 198px;
   text-align: center;
   border-radius: 10px;
@@ -181,4 +181,4 @@ body{
   cursor: pointer;
   background-image: linear-gradient(-45deg, #27b88d 0%, #22dd73 100%)
 }
-/**Feature css started **/
+/**Feature css end **/
