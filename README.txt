@@ -5,9 +5,9 @@ Joel Stéphane Ngando
 Rand Al-Nuaimi
 Ashbelle Hounhouedo
 
-Proudcut name:
+Product name:
 EZ trip
 
-Proudcut Description:
+Product Description:
 Travelling personlized services.
 we conect travelers/ new comers to local experts who can help with their stelling down.
