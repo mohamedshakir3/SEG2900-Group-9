@@ -13,67 +13,67 @@ font-size: 10px;
     font-size: 3.5rem;
   }
 }
-  .bd-placeholder-img {
-    font-size: 1.125rem;
-    text-anchor: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-  }
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
 
-  /**- Navbar css **/
-  .social-media p a {
-    border: 1px solid #e6e6e6;
-    width: 40px;
-    height: 40px;
-    text-decoration: none;
-    background-color: transparent;
-    border-radius: 50%;
-    margin-right: 4px;
-    color: #4d4d4d;
-    transition: all .2s;
-  }
-  
-  .social-media p a:hover {
-    box-shadow: 0 0 15px rgba(0,0,0, 0.5) inset;
-  }
+/**- Navbar css **/
+.social-media p a {
+  border: 1px solid #e6e6e6;
+  width: 40px;
+  height: 40px;
+  text-decoration: none;
+  background-color: transparent;
+  border-radius: 50%;
+  margin-right: 4px;
+  color: #4d4d4d;
+  transition: all .2s;
+}
 
-  .navbar-brand span {
-    display: block;
-    font-size: 12px;
-    font-weight: 500;
-    color: rgba(0, 0, 0, 0.3);
-  }
-  .navbar-nav .nav-item {
-    margin-left: auto;
-    margin-right: auto;
-  }
+.social-media p a:hover {
+  box-shadow: 0 0 15px rgba(0,0,0, 0.5) inset;
+}
 
-  .carousel .carousel-item {
-    height: 900px;
-  }
-  /*object-fit:cover; To preserve the aspect ration for different window sizes*/
-  .carousel-item img {
-      position: absolute;
-      object-fit:cover;
-      top: 0;
-      left: 0;
-      min-height: 500px;
-  }
-  /* Smaller than standard 960 (devices and browsers) */
-  @media only screen and (max-width: 959px) {}
+.navbar-brand span {
+  display: block;
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.3);
+}
+.navbar-nav .nav-item {
+  margin-left: auto;
+  margin-right: auto;
+}
 
-  /* Tablet Portrait size to standard 960 (devices and browsers) */
-  @media only screen and (min-width: 768px) and (max-width: 959px) {}
+.carousel .carousel-item {
+  height: 900px;
+}
+/*object-fit:cover; To preserve the aspect ration for different window sizes*/
+.carousel-item img {
+    position: absolute;
+    object-fit:cover;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+}
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {}
 
-  /* All Mobile Sizes (devices and browser) */
-  @media only screen and (max-width: 767px) {}
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {}
 
-  /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-  @media only screen and (min-width: 480px) and (max-width: 767px) {}
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {}
 
-  /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-  @media only screen and (max-width: 479px) {}
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {}
 /**Navbar css end **/
 
 /**Team member css started **/
