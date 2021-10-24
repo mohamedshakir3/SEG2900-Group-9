@@ -1,0 +1,32 @@
+Overall Look and Feel of EZTavel
+===============================
+
+The general appearance should be simple. We will avoid adding elements with a lot of animation in order to have a quiet site so that the user can focus on the information in the website.
+The website will be user-friendly and responsive so the user can acces that on mobile.
+
+Icon
+========
+we will use icon from font awesome
+
+Colours
+========
+EzTravel overall colors would be like this :
+-Background-color: #D4ECDD
+-Navbar-color: Dark
+-Social media icon color nav bar : #4d4d4d
+-Team subtitle color: #8d97ad
+-Team a:hover color: #316ce8
+
+
+Typography
+==========
+We will be using Cambria Font.
+
+Links/Icon
+=====
+Links will not be underlined and should change color when a user hovers over it.
+Social media Icon on top of nav bar will use box-shadow with this specs 0 0 15px rgba(0,0,0, 0.5)
+
+Buttons
+=======
+Buttons will be bootstrap button.
