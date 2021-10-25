@@ -16,6 +16,7 @@ EzTravel overall colors would be like this :
 -Social media icon color nav bar : #4d4d4d
 -Team subtitle color: #8d97ad
 -Team a:hover color: #316ce8
+-Sections will have a different color for each service our company will offer in the feature page
 
 
 Typography
@@ -24,9 +25,9 @@ We will be using Cambria Font.
 
 Links/Icon
 =====
-Links will not be underlined and should change color when a user hovers over it.
+Links will not be underlined and should change color when a user hovers over it with animation (team page)
 Social media Icon on top of nav bar will use box-shadow with this specs 0 0 15px rgba(0,0,0, 0.5)
 
 Buttons
 =======
-Buttons will be bootstrap button.
+The button on index page will be floating bootstrap button center in the middle of the screen
