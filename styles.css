@@ -7,6 +7,7 @@ body{
 color: rgb(55, 141, 15); 
 font-size: 10px; 
 }
+/** getstarted**/
 #getstated{
   /*Change the width as much as you like, but make sure 
   margin-left and margin-right + width = 100%*/
@@ -23,6 +24,9 @@ font-size: 10px;
     font-size: 3.5rem;
   }
 }
+.carousel .carousel-item {
+  height: 900px;
+}
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
@@ -31,7 +35,7 @@ font-size: 10px;
   user-select: none;
 }
 
-/**- Navbar css **/
+/** Navbar css **/
 .social-media p a {
   border: 1px solid #e6e6e6;
   width: 40px;
@@ -59,9 +63,8 @@ font-size: 10px;
   margin-right: auto;
 }
 
-.carousel .carousel-item {
-  height: 900px;
-}
+/**Navbar css end **/
+
 /*object-fit:cover; To preserve the aspect ration for different window sizes*/
 .carousel-item img {
     position: absolute;
@@ -84,7 +87,6 @@ font-size: 10px;
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {}
-/**Navbar css end **/
 
 /**Team member css started **/
 .team4 {
