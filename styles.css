@@ -7,6 +7,16 @@ body{
 color: rgb(55, 141, 15); 
 font-size: 10px; 
 }
+#getstated{
+  /*Change the width as much as you like, but make sure 
+  margin-left and margin-right + width = 100%*/
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: 50px;
+  margin-left: -100px;
+}
 /**- carrousel option **/
 @media (min-width: 768px) {
   .bd-placeholder-img-lg {
