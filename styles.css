@@ -63,6 +63,7 @@ font-size: 10px;
   margin-right: auto;
 }
 
+
 /**Navbar css end **/
 
 /*object-fit:cover; To preserve the aspect ration for different window sizes*/
@@ -198,7 +199,8 @@ font-size: 10px;
 
 /**Pricing Page **/
 section.pricing {
-  background: linear-gradient(to top, black, white);
+  background: linear-gradient(to bottom, #212529, white);
+  background-size:cover
 }
 
 .pricing .card {
@@ -209,19 +211,20 @@ section.pricing {
 }
 
 .pricing hr {
-  margin: 1.5rem 0;
+  margin: 5rem 0;
 }
 
 .pricing .card-title {
-  margin: 0.5rem 0;
+  margin-top: 20px ;
+  margin: 1rem ;
   font-size: 0.9rem;
-  letter-spacing: .1rem;
-  font-weight: bold;
+  letter-spacing: .4rem;
+  font-weight: bold ;
 }
 
 .pricing .card-price {
   font-size: 3rem;
-  margin: 0;
+  margin: 0rem;
 }
 
 .pricing .card-price .period {
@@ -236,6 +239,7 @@ section.pricing {
   opacity: 0.7;
 }
 
+
 .pricing .btn {
   font-size: 80%;
   border-radius: 5rem;
@@ -245,7 +249,17 @@ section.pricing {
   opacity: 0.7;
   transition: all 0.2s;
 }
-.
+.Pcolor {
+  color: #A38A00;
+}
+.cardtitlecolorS {
+  color: rgb(0,168,225);
+}
+.cardtitlecolorP {
+  color: #A38A00;
+}
+
+
 
 /* Hover Effects on Card */
 
