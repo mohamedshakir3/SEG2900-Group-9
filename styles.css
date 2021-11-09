@@ -1,6 +1,6 @@
 body{
-  background-color: #212529;
-  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+  background-color: #f2f2f2;
+  font-family: "Cambria";
 }
 /** slogan **/
 .slogan{
@@ -10,16 +10,9 @@ font-weight: bold;
 }
 /** getstarted**/
 #getstated{
-  /*Change the width as much as you like, but make sure 
-  margin-left and margin-right + width = 100%*/
-
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  margin-top: 50px;
-  margin-left: -66px;
-  
-  
+  position: absolute;
+  top: 46%;
+  left: 46%;
 }
 /**- carrousel option **/
 @media (min-width: 768px) {
@@ -40,20 +33,19 @@ font-weight: bold;
 
 /** Navbar css **/
 .social-media p a {
-  border: 1px solid #212529;
+  border: 1px solid #e6e6e6;
   width: 40px;
   height: 40px;
   text-decoration: none;
   background-color: transparent;
   border-radius: 50%;
   margin-right: 4px;
-  color: white;
+  color: #4d4d4d;
   transition: all .2s;
 }
 
 .social-media p a:hover {
   box-shadow: 0 0 15px rgba(0,0,0, 0.5) inset;
-  color: #316ce8
 }
 
 .navbar-brand span {
@@ -96,7 +88,7 @@ font-weight: bold;
 /**Team member css started **/
 .team4 {
   font-family: "Cambria", sans-serif;
-	color: #8d97ad;
+	color: black;
   font-weight: 300;
 }
 .img-spec {
@@ -104,10 +96,6 @@ font-weight: bold;
   margin-right: auto;
   display: block;
   width: 60%;
-}
-
-.team4 h1, .team4 h2, .team4 h3, .team4 h4, .team4 h5, .team4 h6 {
-  color: white;
 }
 
 .team4 .font-weight-medium {
@@ -120,7 +108,7 @@ font-weight: bold;
 }
 
 .team4 .subtitle {
-    color: #8d97ad;
+    color: black;
     line-height: 24px;
 		font-size: 13px;
 }
